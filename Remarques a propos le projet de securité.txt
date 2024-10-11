@@ -1,4 +1,3 @@
-Bonjour MR faouzi,
 
  Voici une explication du mon projet dont j'ai essayé de réaliser cette attaque par la technique Brute Force :
 
