@@ -1,0 +1,50 @@
+Bonjour MR faouzi,
+
+ Voici une explication du mon projet dont j'ai essayé de réaliser cette attaque par la technique Brute Force :
+
+
+on verfie la connection entre les deux machines
+
+
+c'est le premier fichier créé des usernames
+c'est le premier fichier créé des passwords
+
+
+maintenant on a l'attaque grace a la commande hydra .
+La commande est en cours d'essay de faire les combinaisons entre les usernames et les passwords.
+Elle prend du temps 
+
+
+Donc le resultat apres l'essaie du cette commande :il n'existe aucune reponse ou password valid dans les deux listes donées.
+Il peut etre causé par la limite des usernames et passwords utilisées.
+
+*******************************************************************************************
+
+**Création de deux machines virtuelles ines et in(machine victime):
+
+     j'ai vérifier la connexion a travers ping 192.168.56.103(adresse machine victime)
+
+**dans la machine du hacker :
+
+             * J'ai crée deux fichiers usernames.txt dont je les ai ajouté les noms d'utilisateur et un fichier wordlists qui contient quelques mots de passes 
+             **Puis j'ai utilise la commande Hydra dont l'entete est la suivante :
+
+
+   ******  hydra -L usernames.txt -P wordlists -e nsr -t 1 -f 192.168.56.103 ftp*******
+
+
+
+
+apres le hacking par Hydra ...  je n'ai pas trouver une password valide car j'ai utilisé deus fichiers de password et usernames dont ils ne contiennet pas des mots de passes valides  
+
+et j'ai essayé de télécharger les dictionnaires de usernames et password mais ils ne fonctionnent pas .
+
+
+
+
+
+
+
+Merci pour votre compréhension .
+Cordialement. 
+          
